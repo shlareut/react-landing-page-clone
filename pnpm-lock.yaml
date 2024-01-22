@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@fontsource/be-vietnam-pro':
+    specifier: ^5.0.18
+    version: 5.0.18
   '@upleveled/react-scripts':
     specifier: 5.0.13
     version: 5.0.13(eslint@8.56.0)(react@18.2.0)(sass@1.70.0)(typescript@5.3.3)
@@ -1739,6 +1742,10 @@ packages:
   /@eslint/js@8.56.0:
     resolution: {integrity: sha512-gMsVel9D7f2HLkBma9VbtzZRehRogVRfbr++f06nL2vnCGCNlzOD+/MUov/F4p8myyAHspEhVobgjpX64q5m6A==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+
+  /@fontsource/be-vietnam-pro@5.0.18:
+    resolution: {integrity: sha512-deIb6HgHYbz2onsmTC678cFvnQTZ4vojdn/LY+y/GTX12zAW4TWrw7C/4QwoTNgmzHROx7Rrazi2WGj6iogEgg==}
+    dev: false
 
   /@humanwhocodes/config-array@0.11.14:
     resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}

@@ -1,0 +1,37 @@
+.wrapper {
+  border: 1px solid;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  padding: 0px 96px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid;
+  height: 100%;
+}
+
+.logo {
+  color: red;
+  border: 1px solid;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.linkList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.listItem {
+  padding: 12px 32px;
+  border: 1px solid;
+  font-size: 16px;
+  font-weight: 600;
+}
