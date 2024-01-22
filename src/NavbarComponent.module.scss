@@ -1,22 +1,21 @@
 .wrapper {
-  border: 1px solid;
   height: 80px;
   position: fixed;
   width: 100%;
   padding: 0px 96px;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 
 .navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border: 1px solid;
   height: 100%;
 }
 
 .logo {
-  color: red;
-  border: 1px solid;
   display: flex;
   flex-direction: row;
   align-self: center;
@@ -31,7 +30,21 @@
 
 .listItem {
   padding: 12px 32px;
-  border: 1px solid;
-  font-size: 16px;
-  font-weight: 600;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transform: translateY(-0.375rem);
+  }
+}
+
+.button {
+  padding: 12px 32px;
+  color: white;
+  background-color: #27272a;
+  border-color: #27272a;
+  border-radius: 8px;
+  box-shadow: 6px 6px 0px #b2b2b2;
+  &:hover {
+    transform: translateY(-0.375rem);
+  }
 }

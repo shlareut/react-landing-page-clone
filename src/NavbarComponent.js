@@ -15,7 +15,7 @@ export default function navbarComponent() {
           <li className={styles.listItem}>Integrations</li>
           <li className={styles.listItem}>Pricing</li>
           <li className={styles.listItem}>Log In</li>
-          <li className={styles.listItem}>Try for Free</li>
+          <li className={styles.button}>Try for Free</li>
         </ul>
       </div>
     </div>
