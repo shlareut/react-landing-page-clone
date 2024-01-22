@@ -1,15 +1,17 @@
 import styles from './App.module.scss';
-import IntroComponent from './IntroComponent';
+import ExternalLinkSection from './ExternalLinkSection';
+import IntroSection from './IntroSection';
 import logo from './logo.svg';
 import NavbarComponent from './NavbarComponent';
-import ValuePropsComponent from './ValuePropsComponent';
+import ValuePropSection from './ValuePropSection';
 
 export default function App() {
   return (
     <div>
       <NavbarComponent />
-      <IntroComponent />
-      <ValuePropsComponent />
+      <IntroSection />
+      <ValuePropSection />
+      <ExternalLinkSection />
     </div>
   );
 }

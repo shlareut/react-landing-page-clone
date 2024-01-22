@@ -1,0 +1,45 @@
+.body {
+  background-color: #18181b;
+  padding: 40px 96px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0px 0px 24px;
+}
+
+.leftImage {
+  position: absolute;
+  top: 2758px;
+  left: 400px;
+  height: 50px;
+}
+
+.rightImage {
+  position: absolute;
+  top: 2758px;
+  right: 400px;
+  height: 50px;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  color: white;
+  width: 65px;
+  height: 65px;
+}

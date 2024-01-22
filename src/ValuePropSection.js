@@ -1,6 +1,6 @@
 import React from 'react';
 import ValueProp from './ValueProp';
-import styles from './ValuePropsComponent.module.scss';
+import styles from './ValuePropSection.module.scss';
 
 export default function ValuePropsComponent() {
   return (

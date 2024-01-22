@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './IntroComponent.module.scss';
+import styles from './IntroSection.module.scss';
 
-export default function IntroComponent() {
+export default function IntroSection() {
   return (
     <div className={styles.body}>
       <div className={styles.content}>
