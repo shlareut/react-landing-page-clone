@@ -1,9 +1,9 @@
 import React from 'react';
-import styles from './NavbarComponent.module.scss';
+import styles from './Navbar.module.scss';
 
-export default function navbarComponent() {
+export default function Navbar() {
   return (
-    <div className={styles.wrapper}>
+    <nav>
       <div className={styles.navbar}>
         <div className={styles.logo}>
           <img
@@ -18,6 +18,6 @@ export default function navbarComponent() {
           <li className={styles.button}>Try for Free</li>
         </ul>
       </div>
-    </div>
+    </nav>
   );
 }
