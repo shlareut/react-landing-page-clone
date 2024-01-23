@@ -1,6 +1,6 @@
 import React from 'react';
 import TestimonialBox from './components/TestimonialBox';
-import sectionStyles from './NewSection.module.scss';
+import sectionStyles from './Section.module.scss';
 import styles from './Section6.module.scss';
 
 export default function Section6() {

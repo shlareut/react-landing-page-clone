@@ -1,6 +1,6 @@
 import React from 'react';
 import IntegrationGuideButton from './components/IntegrationGuideButton';
-import sectionStyles from './NewSection.module.scss';
+import sectionStyles from './Section.module.scss';
 import styles from './Section3.module.scss';
 
 export default function Section3() {
