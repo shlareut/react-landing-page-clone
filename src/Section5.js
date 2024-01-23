@@ -1,4 +1,5 @@
 import React from 'react';
+import preview from './hagrid.jpg';
 import sectionStyles from './Section.module.scss';
 
 export default function Section5() {
@@ -25,9 +26,11 @@ export default function Section5() {
         </h2>
       </div>
       <div className={sectionStyles.bodyContent}>
-        <div style={{ border: '1px solid', width: '1000px', height: '1300px' }}>
-          {' '}
-        </div>
+        <img
+          alt="hagrid-preview"
+          style={{ width: '1000px', height: '1708px' }}
+          src={preview}
+        />
       </div>
     </section>
   );
