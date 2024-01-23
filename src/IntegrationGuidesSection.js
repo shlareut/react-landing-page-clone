@@ -9,10 +9,12 @@ export default function ExternalLinkSection() {
         On your website in less than 10 minutes
         <img
           className={styles.leftImage}
+          alt="wavy-line-icon"
           src="https://hagrid.io/assets/images/wavy-line.svg"
         />
         <img
           className={styles.rightImage}
+          alt="wavy-line-icon"
           src="https://hagrid.io/assets/images/wavy-line.svg"
         />
       </div>

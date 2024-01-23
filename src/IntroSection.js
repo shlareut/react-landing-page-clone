@@ -7,10 +7,12 @@ export default function IntroSection() {
       <div className={styles.content}>
         <img
           className={styles.leftImage}
+          alt="scribble-3"
           src="https://hagrid.io/assets/images/scribble-3.svg"
         />
         <img
           className={styles.rightImage}
+          alt="scribble-2"
           src="https://hagrid.io/assets/images/scribble-2.svg"
         />
         <p className={styles.title}>
@@ -24,9 +26,9 @@ export default function IntroSection() {
           14 day trial. No credit card needed.
         </p>
         <div className={styles.screenshots}>
-          <img src="https://hagrid.io/assets/images/hero-img-1.svg" />
-          <img src="https://hagrid.io/assets/images/hero-img-2.svg" />
-          <img src="https://hagrid.io/assets/images/hero-img-3.svg" />
+          <img alt="screenshot-1" src="https://hagrid.io/assets/images/hero-img-1.svg" />
+          <img alt="screenshot-2" src="https://hagrid.io/assets/images/hero-img-2.svg" />
+          <img alt="screenshot-3" src="https://hagrid.io/assets/images/hero-img-3.svg" />
         </div>
       </div>
     </div>
