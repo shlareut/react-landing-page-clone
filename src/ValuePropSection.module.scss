@@ -6,19 +6,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .leftImage {
   position: absolute;
-  left: -80px;
-  top: 2100px;
+  left: -175px;
+  top: 550px;
   z-index: 1;
 }
 
 .rightImage {
   position: absolute;
-  right: -45px;
-  top: 1434px;
+  right: -140px;
+  top: -130px;
   z-index: 1;
 }
 

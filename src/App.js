@@ -1,5 +1,5 @@
 import styles from './App.module.scss';
-import ExternalLinkSection from './ExternalLinkSection';
+import IntegrationGuidesSection from './IntegrationGuidesSection';
 import IntroSection from './IntroSection';
 import logo from './logo.svg';
 import NavbarComponent from './NavbarComponent';
@@ -11,7 +11,7 @@ export default function App() {
       <NavbarComponent />
       <IntroSection />
       <ValuePropSection />
-      <ExternalLinkSection />
+      <IntegrationGuidesSection />
     </div>
   );
 }
