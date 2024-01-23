@@ -30,7 +30,7 @@ export default function Section7() {
               <div className={styles.cadence}>Monthly</div>
               <div className={styles.priceWrapper}>1999</div>
               <div className={styles.billingPeriod}>Monthly</div>
-              <div>Button</div>
+              <div className={styles.button}>Try for Free</div>
             </div>
           </div>
           <div className={styles.priceBox}>Test</div>
