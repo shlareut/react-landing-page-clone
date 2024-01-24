@@ -24,7 +24,6 @@
   "dependencies": {
     "@fontsource/be-vietnam-pro": "^5.0.18",
     "@upleveled/react-scripts": "5.0.13",
-    "postcss-colormin": "^6.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sass": "1.70.0"
