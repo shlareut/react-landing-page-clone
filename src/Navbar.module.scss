@@ -29,12 +29,3 @@ nav {
   flex-direction: row;
   align-self: center;
 }
-
-.listItem {
-  padding: 12px 32px;
-  &:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    transform: translateY(-0.375rem);
-  }
-}

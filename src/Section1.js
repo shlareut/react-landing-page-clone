@@ -29,10 +29,7 @@ export default function Section1() {
         </h2>
       </div>
       <div className={sectionStyles.bodyContent}>
-        <Button
-          text="Try for Free"
-          style={{ height: '70px', width: '200px' }}
-        />
+        <Button text="Try for Free" variant="variant2" />
         <p className={styles.buttonSubText}>
           14 day trial. No credit card needed.
         </p>

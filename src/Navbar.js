@@ -13,9 +13,15 @@ export default function Navbar() {
           />
         </div>
         <ul className={styles.linkList}>
-          <li className={styles.listItem}>Integrations</li>
-          <li className={styles.listItem}>Pricing</li>
-          <li className={styles.listItem}>Log In</li>
+          <li>
+            <Button text="Integrations" variant="variant3" />
+          </li>
+          <li>
+            <Button text="Pricing" variant="variant3" />
+          </li>
+          <li>
+            <Button text="Log In" variant="variant3" />
+          </li>
           <li>
             <Button text="Try for Free" />
           </li>
