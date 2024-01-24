@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from './components/Button';
 import styles from './Navbar.module.scss';
 
 export default function Navbar() {
@@ -15,7 +16,9 @@ export default function Navbar() {
           <li className={styles.listItem}>Integrations</li>
           <li className={styles.listItem}>Pricing</li>
           <li className={styles.listItem}>Log In</li>
-          <li className={styles.button}>Try for Free</li>
+          <li>
+            <Button text="Try for Free" />
+          </li>
         </ul>
       </div>
     </nav>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from './components/Button';
 import sectionStyles from './Section.module.scss';
 import styles from './Section1.module.scss';
 
@@ -28,7 +29,10 @@ export default function Section1() {
         </h2>
       </div>
       <div className={sectionStyles.bodyContent}>
-        <div className={styles.button}>Try for Free</div>
+        <Button
+          text="Try for Free"
+          style={{ height: '70px', width: '200px' }}
+        />
         <p className={styles.buttonSubText}>
           14 day trial. No credit card needed.
         </p>
