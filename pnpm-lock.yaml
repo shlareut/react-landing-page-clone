@@ -11,6 +11,9 @@ dependencies:
   '@upleveled/react-scripts':
     specifier: 5.0.13
     version: 5.0.13(eslint@8.56.0)(react@18.2.0)(sass@1.70.0)(typescript@5.3.3)
+  postcss-colormin:
+    specifier: ^6.0.2
+    version: 6.0.2(postcss@8.4.33)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -7641,6 +7644,19 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    dependencies:
+      browserslist: 4.22.2
+      caniuse-api: 3.0.0
+      colord: 2.9.3
+      postcss: 8.4.33
+      postcss-value-parser: 4.2.0
+    dev: false
+
+  /postcss-colormin@6.0.2(postcss@8.4.33):
+    resolution: {integrity: sha512-TXKOxs9LWcdYo5cgmcSHPkyrLAh86hX1ijmyy6J8SbOhyv6ua053M3ZAM/0j44UsnQNIWdl8gb5L7xX2htKeLw==}
+    engines: {node: ^14 || ^16 || >=18.0}
+    peerDependencies:
+      postcss: ^8.4.31
     dependencies:
       browserslist: 4.22.2
       caniuse-api: 3.0.0
