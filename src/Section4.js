@@ -22,6 +22,7 @@ export default function Section4() {
       </div>
       <div className={sectionStyles.bodyContent}>
         <video
+          className={styles.video}
           src="https://hagrid.io/assets/images/clip-1.mp4"
           autoPlay
           muted
